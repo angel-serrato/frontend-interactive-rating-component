@@ -97,3 +97,40 @@
 .rating__submit:hover {
     background-color: var(--white);
 }
+
+/* Second page */
+
+.rating__card--thank-you {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating__selection {
+    background-color: hsla(217, 12%, 63%, 0.1);
+    color: var(--orange-500);
+    font-size: var(--size-h6);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.rating__thank-you-title {
+    font-size: var(--size-h3);
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 0.75rem;
+}
+
+.rating__thank-you-message {
+    font-size: var(--size-h6);
+    color: var(--grey-500);
+    line-height: 1.6;
+}
+
+.rating__thank-you-img {
+    width: 120px;
+    margin-bottom: 1.5rem;
+}

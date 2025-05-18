@@ -47,6 +47,12 @@ function Interactive() {
         </div>
       ) : (
         <div className="rating__card rating__card--thank-you">
+          <img
+            src="/src/assets/illustration-thank-you.svg"
+            alt="Thank you illustration"
+            className="rating__thank-you-img"
+          />
+
           <div className="rating__selection">You selected {rating} out of 5</div>
           <h1 className="rating__thank-you-title">Thank you!</h1>
           <p className="rating__thank-you-message">
