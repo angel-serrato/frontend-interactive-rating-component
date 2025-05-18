@@ -6,7 +6,7 @@
 }
 
 .rating__card {
-    padding: 20px;
+    padding: 30px 20px 30px 20px;
 }
 
 .rating__icon-wrapper {
@@ -60,6 +60,17 @@
     cursor: pointer;
     width: 40px;
     height: 40px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.rating__option:hover {
+    background-color: var(--orange-500);
+    color: var(--grey-950);
+}
+
+.rating__option--selected {
+    background-color: var(--white);
+    color: var(--grey-950);
 }
 
 .rating__submit {
@@ -72,4 +83,10 @@
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.rating__submit:hover {
+    background-color: var(--white);
 }
