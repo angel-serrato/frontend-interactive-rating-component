@@ -1,0 +1,75 @@
+.rating {
+    background-color: var(--grey-900);
+    color: var(--white);
+    border-radius: 24px;
+    max-width: 85vw;
+}
+
+.rating__card {
+    padding: 20px;
+}
+
+.rating__icon-wrapper {
+    background-color: hsla(217, 12%, 63%, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    width: 40px;
+    height: 40px;
+}
+
+.icon-tabler-star {
+    fill: var(--orange-500);
+    width: 16px;
+    height: 16px;
+}
+
+.rating__title {
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: var(--size-h3);
+    color: var(--white);
+}
+
+.rating__description {
+    color: var(--grey-500);
+    font-size: var(--size-h6);
+    line-height: 1.6;
+    font-optical-sizing: auto;
+}
+
+.rating__options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.rating__option {
+    /* background-color: var(--grey-500); */
+    background-color: hsla(217, 12%, 63%, 0.1);
+    border-radius: 50%;
+    color: var(--grey-500);
+    border: none;
+    font-size: var(--size-h5);
+    font-weight: 700;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.rating__submit {
+    background-color: var(--orange-500);
+    border: none;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 24px;
+}

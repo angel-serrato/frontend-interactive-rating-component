@@ -1,0 +1,39 @@
+:root {
+    --white: hsl(0, 100%, 100%);
+    --orange-500: hsl(25, 97%, 53%);
+    --grey-500: hsl(217, 12%, 63%);
+    --grey-900: hsl(213, 19%, 18%);
+    --grey-950: hsl(216, 12%, 8%);
+
+    --size-h6: clamp(0.875rem, 0.8533rem + 0.1087vw, 0.9375rem);
+    --size-h5: clamp(1.05rem, 1.0076rem + 0.212vw, 1.1719rem);
+    --size-h4: clamp(1.26rem, 1.1888rem + 0.3563vw, 1.4648rem);
+    --size-h3: clamp(1.512rem, 1.401rem + 0.5549vw, 1.8311rem);
+    --size-h2: clamp(1.8144rem, 1.6494rem + 0.8251vw, 2.2888rem);
+    --size-h1: clamp(2.1773rem, 1.9395rem + 1.1891vw, 2.861rem);
+}
+
+.overpass-400 {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.overpass-700 {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: var(--grey-950);
+}
