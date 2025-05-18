@@ -48,7 +48,7 @@ function Interactive() {
       ) : (
         <div className="rating__card rating__card--thank-you">
           <img
-            src="/src/assets/illustration-thank-you.svg"
+            src="/illustration-thank-you.svg"
             alt="Thank you illustration"
             className="rating__thank-you-img"
           />
