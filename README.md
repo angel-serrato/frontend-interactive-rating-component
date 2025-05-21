@@ -19,7 +19,7 @@ This is a small interactive rating UI built with React, HTML, and CSS, following
 
 ### Screenshot
 
-
+![interactiveshots](https://github.com/user-attachments/assets/dcb4c799-51c3-4d05-9125-86d9c5a9a9a3)
 
 ### Links
 
