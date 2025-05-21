@@ -1,36 +1,53 @@
-# Front-end Style Guide
+# Frontend Mentor - Interactive Rating Component
 
-## Layout
+This is a solution to the [Interactive Rating Component on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-The designs were created to the following widths:
+## Table of contents
 
-- Mobile: 375px
-- Desktop: 1440px
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+## Overview
 
-## Colors
+This is a small interactive rating UI built with React, HTML, and CSS, following the BEM naming convention. Users can select a rating from 1 to 5 and submit their feedback. After submission, a thank-you state is shown with the selected rating.
 
-### Primary
+### Screenshot
 
-- Orange 500: hsl(25, 97%, 53%)
 
-### Neutral
 
-- White: hsl(0, 100%, 100%)
-- Grey 500: hsl(217, 12%, 63%)
-- Grey 900: hsl(213, 19%, 18%)
-- Grey 950: hsl(216, 12%, 8%)
+### Links
 
-## Typography
+- Live Site URL: [Demo](https://frontend-interactive-rating-component-phi.vercel.app/)
 
-### Body Copy
+## My process
 
-- Font size (paragraph): 15px
+### Built with
 
-### Font
+- React
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
+- Google Fonts
 
-- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
-- Weights: 400, 700
+### Useful resources
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
+- [BEM Cheat Sheet](https://bem-cheat-sheet.9elements.com/) - A handy guide for naming CSS classes using the BEM (Block Element Modifier) methodology. It provides naming suggestions for common web components like cards, buttons, and forms, helping you maintain organized and scalable code.
+- [Squoosh.app](https://squoosh.app/) - A free, browser-based image compression tool developed by GoogleChromeLabs. Squoosh allows you to compress and compare images with different codecs directly in your browser, ensuring your images are optimized without compromising quality.
+- [Shots.so](https://shots.so/) - An online tool that enables you to create beautiful mockups quickly. Simply drag and drop your screenshots or designs, choose from various devices and backgrounds, and customize the appearance to suit your needs.
+- [Normalize.css](https://necolas.github.io/normalize.css/) A modern, HTML5-ready alternative to CSS resets. It aims to make browsers render all elements more consistently and in line with modern standards. Unlike CSS resets, Normalize.css preserves useful default styles, establishes base styles for common elements, corrects browser bugs, and enhances accessibility. It provides a consistent baseline for styling HTML elements across different devices and browsers.
+
+## Author
+
+- Website - [Serrato.dev](https://www.serrato.dev)
+- LinkedIn - [@angel-serrato](https://www.linkedin.com/in/angel-serrato/)
+- GitHub - [@angel-serrato](https://github.com/angel-serrato)
+
+## Acknowledgments
+
+Challenge by [Frontend Mentor](https://www.frontendmentor.io/). Thanks for the awesome practice projects!

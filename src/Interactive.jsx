@@ -41,7 +41,7 @@ function Interactive() {
               </button>
             ))}
           </div>
-          <button className="rating__submit" onClick={handleSubmit}>
+          <button className="rating__submit" onClick={handleSubmit} disabled={rating === null}>
             Submit
           </button>
         </div>
